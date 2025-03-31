@@ -44,6 +44,29 @@ This project develops an NLP-based classification system to categorize fashion p
 ## Comparative Analysis:
 The comparative analysis of different models highlights their effectiveness in classifying news articles into the correct category. The following table summarizes the accuracy, precision, recall, and F1-score of the models tested:
 ### Machine Learning Models
+# Model Performance Comparison
+
+This table presents the performance metrics of different models using various feature sets.
+
+| **Model**               | **Feature Set**   | **Accuracy** | **Precision** | **Recall** | **F1-Score** |
+|-------------------------|------------------|-------------|-------------|---------|-----------|
+| **Decision Tree**       | BoW              | 0.275       | 0.280       | 0.270   | 0.275     |
+| **Decision Tree**       | NLP Features     | 0.225       | 0.230       | 0.220   | 0.225     |
+| **Decision Tree**       | TF               | 0.235       | 0.240       | 0.230   | 0.235     |
+| **Gradient Boosting**   | BoW              | 0.230       | 0.235       | 0.225   | 0.230     |
+| **Gradient Boosting**   | NLP Features     | 0.215       | 0.220       | 0.210   | 0.215     |
+| **Gradient Boosting**   | TF               | 0.220       | 0.225       | 0.215   | 0.220     |
+| **Logistic Regression** | BoW              | 0.250       | 0.260       | 0.245   | 0.252     |
+| **Logistic Regression** | NLP Features     | 0.235       | 0.240       | 0.230   | 0.235     |
+| **Logistic Regression** | TF               | 0.270       | 0.275       | 0.265   | 0.270     |
+| **Random Forest**       | BoW              | 0.220       | 0.225       | 0.215   | 0.220     |
+| **Random Forest**       | NLP Features     | 0.210       | 0.215       | 0.205   | 0.210     |
+| **Random Forest**       | TF               | 0.255       | 0.260       | 0.250   | 0.255     |
+| **SVM**                 | BoW              | 0.220       | 0.225       | 0.215   | 0.220     |
+| **SVM**                 | NLP Features     | 0.225       | 0.230       | 0.220   | 0.225     |
+| **SVM**                 | TF               | 0.225       | 0.230       | 0.220   | 0.225     |
+
+
 
 ### Deep Learning Models
 | No. | Model Name  | Feature  | Precision | Recall | F1 Score | Accuracy |
@@ -63,7 +86,7 @@ The comparative analysis of different models highlights their effectiveness in c
 
 
 ### Language Models
-| # | Model Name | Precision | Recall | Accuracy | F1 Score |
+| No. | Model Name | Precision | Recall | Accuracy | F1 Score |
 |---|------------|-----------|--------|----------|----------|
 | 1 | RoBERTa | 0.0529 | 0.2300 | 0.2300 | 0.0860 |
 | 2 | BERT | 0.0529 | 0.2300 | 0.2300 | 0.0860 |
